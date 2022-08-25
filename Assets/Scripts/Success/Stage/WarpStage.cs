@@ -14,7 +14,7 @@ public class WarpStage : MonoBehaviour
     {
         GameObject collisionGameObject = collision.gameObject;
 
-        if(collisionGameObject.name == "TestPlayer")
+        if(collisionGameObject.name == "Player")
         {
             LoadScene();
         }

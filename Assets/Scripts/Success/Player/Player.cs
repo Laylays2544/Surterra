@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
     public int numWheatSeed = 0;
     public int numCarrotSeed = 0;
     //public GameObject Wheat;
