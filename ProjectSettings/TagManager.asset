@@ -47,27 +47,12 @@ TagManager:
   - name: Ground2
     uniqueID: 3157157057
     locked: 0
-  - name: Ground3
-    uniqueID: 998240711
-    locked: 0
-  - name: GroundDecoration1
-    uniqueID: 836267673
-    locked: 0
-  - name: GroundDecoration2
-    uniqueID: 2403606669
-    locked: 0
-  - name: Instances
-    uniqueID: 4180369195
-    locked: 0
-  - name: Front1
-    uniqueID: 2248874953
-    locked: 0
-  - name: Front2
-    uniqueID: 3881380379
-    locked: 0
-  - name: Collisions
-    uniqueID: 3746764215
+  - name: InteractableMap
+    uniqueID: 4255953311
     locked: 0
   - name: Player
-    uniqueID: 3875977125
+    uniqueID: 2078368547
+    locked: 0
+  - name: House
+    uniqueID: 3137981371
     locked: 0

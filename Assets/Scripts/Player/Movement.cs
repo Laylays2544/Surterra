@@ -6,8 +6,8 @@ public class Movement : MonoBehaviour
 {
     public float speed;
     public Animator animator;
-    
 
+    private Vector3 direction;
 
     //get input from player
     //apply movement to sprite
@@ -22,8 +22,16 @@ public class Movement : MonoBehaviour
         animator.SetFloat("Vertical", Direction.y);
         animator.SetFloat("Magnitude", Direction.magnitude);
 
-        
-        transform.position += Direction * speed * Time.deltaTime;
+        direction = new Vector3(Direction.x, Direction.y, 0);
+
+
+        ///transform.position += Direction * speed * Time.deltaTime;
         //transform.position = transform.position + Direction * Time.deltaTime;
+    }
+
+    private void FixedUpdate()
+    {
+        //move the player
+        this.transform.position += direction.normalized * speed * Time.deltaTime;
     }
 }
