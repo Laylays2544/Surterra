@@ -47,11 +47,17 @@ TagManager:
   - name: Ground2
     uniqueID: 3157157057
     locked: 0
+  - name: Home
+    uniqueID: 3534548799
+    locked: 0
   - name: InteractableMap
     uniqueID: 4255953311
     locked: 0
   - name: Player
     uniqueID: 2078368547
+    locked: 0
+  - name: Tree
+    uniqueID: 1828503959
     locked: 0
   - name: House
     uniqueID: 3137981371
